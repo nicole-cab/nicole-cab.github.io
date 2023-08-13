@@ -12,8 +12,9 @@ import { Route, Routes, Navigate } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <div className="container-fluid m-0 p-0">
       <Navbar />
+      <div className="loader-line"></div>
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="about" Component={About} />
@@ -23,7 +24,7 @@ function App() {
         <Route path="/404" element={<PageNotFound />} />
         <Route path="*" element={<Navigate to="/404" />} />
       </Routes>
-    </>
+    </div>
   );
 }
 

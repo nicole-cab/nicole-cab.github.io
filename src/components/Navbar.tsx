@@ -2,10 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-3">
-      <Link to="/" className="navbar-brand">
-        Brand
-      </Link>
+    <nav className="navbar navbar-expand-lg navbar-dark p-3">
       <button
         className="navbar-toggler"
         type="button"
@@ -19,30 +16,30 @@ function Navbar() {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav ml-auto">
+        <ul className="navbar-nav m-auto">
           <li className="nav-item">
-            <Link to="/" className="nav-link">
-              Home
+            <Link to="/" className="nav-link p-1 py-0 mx-4">
+              HOME
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/about" className="nav-link">
-              About
+            <Link to="/about" className="nav-link p-1 py-0 mx-4">
+              ABOUT
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/skills" className="nav-link">
-              Skills
+            <Link to="/skills" className="nav-link p-1 py-0 mx-4">
+              SKILLS
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/projects" className="nav-link">
-              Projects
+            <Link to="/projects" className="nav-link p-1 py-0 mx-4">
+              PROJECTS
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/contact" className="nav-link">
-              Contact
+            <Link to="/contact" className="nav-link p-1 py-0 mx-4">
+              CONTACT
             </Link>
           </li>
         </ul>
