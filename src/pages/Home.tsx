@@ -2,7 +2,7 @@ import photo from "../images/photo.png";
 import Card from "../components/Card";
 function Home() {
   return (
-    <div className="m-0">
+    <div className="mx-5 px-5">
       <div>
         <img
           src={photo}
@@ -10,7 +10,7 @@ function Home() {
           alt="Graduation Picture"
           title="Tiniku"
         />
-        <div className="text p-5 pb-0 mb-0">
+        <div className="text p-5 pb-0 mb-0 w-50">
           <h1 className="switzer display-3 mt-5">
             Hello, World!
             <span className="blink">_</span>
@@ -29,12 +29,13 @@ function Home() {
             <strong className="folly">ideas into reality</strong> and believe
             that software has the power to{" "}
             <strong className="folly">transform lives. </strong>
+            <br />
             <span style={{ fontWeight: "bold" }}>
               LET'S BUILD SOMETHING TOGETHER!
             </span>
           </p>
           {/* <Card /> */}
-          <a href="projects" className="button-custom btn btn-lg my-5">
+          <a href="projects" className="button-custom btn btn-lg my-4">
             Check out my projects!
           </a>
         </div>

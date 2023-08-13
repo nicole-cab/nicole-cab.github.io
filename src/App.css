@@ -21,6 +21,10 @@ body {
 
 }
 
+.text {
+    text-align: justify;
+}
+
 .nav-link {
     font-size: 1.2rem !important;
     border-radius: 7px;;
