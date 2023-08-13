@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.cdnfonts.com/css/switzer?styles=135299,135287');
 @import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap%27');
 
 body {
     background-color: #030301 !important;
@@ -22,8 +23,17 @@ body {
 
 .nav-link {
     font-size: 1.2rem !important;
-    border-radius: 7px;
+    border-radius: 7px;;
 }
+
+.nav-link-blink {
+    animation: blinker 2s linear infinite;
+
+}
+
+
+
+
 
 
 .nav-link:hover {
@@ -96,7 +106,7 @@ body {
 
   @keyframes blinker {
     50% {
-      opacity: 0;
+      opacity: 0.5;
     }
   }
 

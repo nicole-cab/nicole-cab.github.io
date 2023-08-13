@@ -8,6 +8,7 @@ function Home() {
           src={photo}
           className="w-50 p-5 pb-0 photo d-none d-lg-block"
           alt="Graduation Picture"
+          title="Tiniku"
         />
         <div className="text p-5 pb-0 mb-0">
           <h1 className="switzer display-3 mt-5">
